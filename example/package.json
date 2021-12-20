@@ -1,0 +1,31 @@
+{
+	"name": "tarot-example",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "webpack serve --mode development --progress",
+		"start": "webpack serve --mode production --progress",
+		"build": "rimraf public && webpack --mode production --progress",
+		"analyze": "webpack serve --mode production --progress --analyze"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "7.16.5",
+		"@intouchg/tarot": "latest",
+		"autoprefixer": "10.4.0",
+		"babel-loader": "8.2.3",
+		"copy-webpack-plugin": "10.2.0",
+		"css-loader": "6.5.1",
+		"ignore-emit-webpack-plugin": "2.0.6",
+		"mini-css-extract-plugin": "2.4.5",
+		"postcss": "8.4.5",
+		"postcss-loader": "6.2.1",
+		"postcss-sort-media-queries": "4.2.1",
+		"rimraf": "3.0.2",
+		"sass": "1.45.0",
+		"sass-loader": "12.4.0",
+		"webpack": "5.65.0",
+		"webpack-bundle-analyzer": "4.5.0",
+		"webpack-cli": "4.9.1",
+		"webpack-dev-server": "4.6.0"
+	}
+}
