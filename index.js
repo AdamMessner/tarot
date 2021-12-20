@@ -27,7 +27,7 @@ const build = (options) => (env, argv) => {
 			modules: ['node_modules'],
 			extensions: ['.js'],
 			alias: {
-				'@': cwd,
+				'@': source,
 			},
 		},
 		module: {

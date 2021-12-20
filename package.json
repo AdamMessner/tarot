@@ -1,6 +1,6 @@
 {
 	"name": "@intouchg/tarot",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Easy custom Webpack configs for SCSS and JS",
 	"repository": "https://github.com/intouchg/tarot",
 	"author": "Intouch Group",
